@@ -457,6 +457,9 @@ thead {
     background-color: var(--background-primary);
 }
 
+.markdown-preview-view .contains-task-list .task-list-item.is-checked {
+  text-decoration: none;
+}
 
 /***************************************/
 /*              popover                */
