@@ -92,6 +92,7 @@
 /* andy mode activated in light mode  */
 /*    at a rule line before ul list    *
 /*  Hide Scrollbar (recommend for mac)  */
+/*              Mermaid                */
 /*-------------------------------------*/
 
 /***************************************/
@@ -810,3 +811,16 @@ code{
     transition: transform 100ms ease-in-out;
     padding: 0px  !important;
   }
+
+/***************************************/
+/*              mermaid                */
+/***************************************/
+
+g.classGroup rect {
+  fill: var(--background-secondary) !important;
+}
+
+.classLabel .box {
+  fill: var(--background-secondary) !important;
+  opacity: .7 !important;
+}
